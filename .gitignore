@@ -1,0 +1,4 @@
+db.sqlite3
+/encuestas/__pycache__
+/encuestas/migrations/__pycache__
+/simplecrud/__pycache__
