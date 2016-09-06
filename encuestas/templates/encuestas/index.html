@@ -1,0 +1,9 @@
+{% if lista %}
+	<ul>
+		{% for pregunta in lista %}
+			<li><a href="{% url 'encuestas:detalles' pregunta.id %}">{{ pregunta.pregunta_text }}</a></li>
+		{% endfor %}
+	</ul>
+{% else %}
+	<p>No hay encuestas disponibles</p>
+{% endif %}
